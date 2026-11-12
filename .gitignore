@@ -1,0 +1,23 @@
+# Python仮想環境
+.venv/
+venv/
+
+# Pythonキャッシュ
+__pycache__/
+*.pyc
+
+# Jupyterのチェックポイント
+.ipynb_checkpoints/
+
+# 元データ・加工データ
+data/raw/
+data/processed/
+
+# 整理前のNotebook
+notebooks/01_data_exploration.ipynb
+notebooks/02_sleep_physiology.ipynb
+
+# OS・エディタ関連
+.DS_Store
+Thumbs.db
+.vscode/
